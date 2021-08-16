@@ -1,8 +1,9 @@
 {
   "name": "logcatch",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "a simple and elegant wrapper for logging and returning/throwing errors",
-  "main": "index.js",
+  "main": "./types/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
