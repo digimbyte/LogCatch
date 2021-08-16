@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-     "target": "es5",
-     "module": "commonjs",
-     "declaration": true,
-     "outDir": "./tsOutputs"
-   },
-  "include": [
-    "lib/**/*.ts",
-    "index.ts"
-  ],
-  "exclude": [
-    "test/**/*.ts"
-  ]
-    }
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./tsOutputs"
+  },
+  "include": ["index.js"],
+  "exclude": []
+}
