@@ -8,9 +8,6 @@ const Return = function (err) {
   return err;
 }
 
-const LogCatch = {
-  Throw: Throw,
-  Return: Return,
-}
 
-export default LogCatch;
+
+export default { Throw, Return };
