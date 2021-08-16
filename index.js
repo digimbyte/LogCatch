@@ -1,9 +1,8 @@
-// to do: https://stackoverflow.com/a/48283183/2301161
-const Throw = function (err) {
+const Throw = function (/** @type {ErrorEvent} */ err) {
   console.warn("Log Catch", err.message || err);
-  throw new Error(err);
+  throw err;
 }
-const Return = function (err) {
+const Return = function (/** @type {ErrorEvent} */ err) {
   console.warn("Log Catch", err.message || err);
   return err;
 }
