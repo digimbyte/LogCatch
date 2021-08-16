@@ -1,4 +1,4 @@
-
+// to do: https://stackoverflow.com/a/48283183/2301161
 const Throw = function (err) {
   console.warn("Log Catch", err.message || err);
   throw new Error(err);
